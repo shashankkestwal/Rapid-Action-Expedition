@@ -1,6 +1,30 @@
-#location {
+#location_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
+#location {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+}
+#location_images {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 315px);
+  grid-template-rows: repeat(1, 235px);
+}
+#location_images div {
+  padding: 5px ;
+}
+#location_images img {
+  border-radius: 8px;
+  max-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+} 

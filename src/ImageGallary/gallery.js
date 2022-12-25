@@ -27,6 +27,7 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 const images = [
+  img4,
   img1,
   img3, 
   img4
@@ -37,7 +38,7 @@ export default class gallery extends Component {
     super(props);
 
     this.state = {
-      photoIndex: 0,
+      photoIndex: 1,
       isOpen: false,
     };
   }
@@ -64,8 +65,12 @@ export default class gallery extends Component {
         {isOpen && (
           <div className = "lightbox">
           <Lightbox
-            style={{ flex: 1 }}
             mainSrc={images[photoIndex]}
+            style={{ flex: 1}}
+            imageTitle={photoIndex + 1 + "/" + images.length}
+            onImageLoad={() => {
+              window.dispatchEvent(new Event('resize'));
+            }}
             nextSrc={images[(photoIndex + 1) % images.length]}
             prevSrc={images[(photoIndex + images.length - 1) % images.length]}
             onCloseRequest={() => this.setState({ isOpen: false })}
@@ -79,6 +84,7 @@ export default class gallery extends Component {
                 photoIndex: (photoIndex + 1) % images.length,
               })
             }
+            
           />
           </div>
         )}

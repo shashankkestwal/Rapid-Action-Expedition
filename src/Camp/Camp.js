@@ -1,6 +1,6 @@
 import './camp.css'
 import TheCamp from "./camp.svg"
-import Gallery from "../ImageGallary/gallery.js"
+import ImageGallery from "../ImageGallary/gallery.js"
 import Paragraph from "./paragraph.js"
 import Button from "../Button/button.js"
 
@@ -10,7 +10,7 @@ let details = "aas a sa s a sas  a The Camp Site is loacted at Shivpuri, one of 
 const Camp = (props) => {
   return (<div id="camp">
             <img id="camp-img" src={TheCamp} alt="The Camp" />
-            <Gallery />
+            <ImageGallery />
             <Paragraph data={details}/>
             <Button/>
           </div>)
