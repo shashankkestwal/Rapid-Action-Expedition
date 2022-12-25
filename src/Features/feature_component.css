@@ -1,0 +1,12 @@
+#feature_component {
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  width: 115px;
+  padding: 0 2rem ;
+}
+
+#feature_component p {
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+#head {
+  
+/*  height: auto;*/
+    background: url('./rafting.png') no-repeat;
+      /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding-top: 87%;
+/*   background-position: top center; */
+}
+/*#backgroundSize {
+  visibility: hidden;
+}*/
+.headerImage {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#expedition {
+/*  height: 100px;*/
+  top: -900px;
+}

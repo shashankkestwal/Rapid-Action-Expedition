@@ -1,0 +1,14 @@
+#features {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#feature_container {
+  display: flex;
+  padding-top: 3rem;
+}
