@@ -1,4 +1,5 @@
 #feature_component {
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
   height: 175px;
@@ -9,4 +10,21 @@
 #feature_component p {
   text-align: center;
   margin: 0;
+}
+
+#feature_head {
+  padding: 8px 0 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #323334;
+}
+
+#feature_data {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #3E4F55;
 }

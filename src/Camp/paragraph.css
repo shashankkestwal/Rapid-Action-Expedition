@@ -2,9 +2,10 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
   /* or 157% */
   padding: 10px;
   color: #3E4043;
+  margin-bottom: 50px;
 }

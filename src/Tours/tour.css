@@ -1,0 +1,38 @@
+#tours_continer {
+  display: grid;
+
+  font-family: 'Lato';
+  grid-template-columns: repeat(4, 1fr);
+}
+#tours_continer p {
+  padding-top: 10px;
+  margin: 0;
+}
+
+#tours_continer img {
+  width: 250px;
+}
+.sta {  
+  color: #3E4F55;
+}
+
+#tour_price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.51px;
+  line-height: 22px;
+  text-align: center;
+  color: #3E4F55;
+}
+.tour_head {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #24292B;
+}
+
+.tour {
+  margin: 100px 0 75px 100px;
+}

@@ -1,4 +1,5 @@
 import './header.css'
+import rafting_image from "./rafting.png"
 // import React from 'react';
 // import EstablishDate from './estd.svg'
 import RadidExpedition from './rapid_expedition.svg'
@@ -6,8 +7,8 @@ import RadidExpedition from './rapid_expedition.svg'
 
 const Head = (props) => {
   return (<div id="head">
-            <img className='headerImage' id="expedition" alt= "Rapid expedition details"  src={RadidExpedition} ></img>
-        </div>)
+            <img src={rafting_image}/>
+          </div>)
 }
 
 export default Head;

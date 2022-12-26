@@ -1,0 +1,33 @@
+#activity {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+/* identical to box height, or 120% */
+
+
+/* Ayurvedyam Secondary Button */
+
+color: #24292B;
+}
+
+#activity_card p {
+  margin: 10px 0 0 0 ;
+  padding: 0;
+}
+#number { 
+  margin: 0;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  color: #11B0A1;
+}
+#price {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5D7781;
+}

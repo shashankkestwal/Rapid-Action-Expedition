@@ -1,7 +1,18 @@
-.App {
-/*  display: flex;*/
+#footer {
 }
-#more_up {
+.headerImage {
   position: relative;
-  top: -550px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 400px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  flex-direction: column;
 }
