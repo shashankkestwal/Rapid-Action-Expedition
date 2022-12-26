@@ -8,7 +8,6 @@ button, input[type="submit"], input[type="reset"] {
   outline: inherit;
 }
 
-
 #first {
   transform: rotate(180deg);
 }
@@ -19,15 +18,21 @@ button, input[type="submit"], input[type="reset"] {
   position: relative;
   top: -1rem;
 /*  width: 143px;*/
-  height: 48px;
+  height: 55px;
   background-color: #0B315E;
   color: white;
   border-radius: 11px;
-  padding: 0 25px;
+  padding: 0 30px;
   margin: 10px;
 }
 
 .style_img {
   height: 40px;
   width: 58px;
+}
+
+@media screen and (max-width: 720px) {
+  #button-container {
+    width: 80%;
+  }
 }

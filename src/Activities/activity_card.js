@@ -1,4 +1,4 @@
-import image from "../assets/img5.jpg"
+import image from "../assets/img5.png"
 import "./activity_card.css"
 const activity_card = (props) => { 
   return(
@@ -17,4 +17,3 @@ activity_card.defaultProps = {
 }
 
 export default activity_card
-

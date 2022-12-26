@@ -1,6 +1,5 @@
 #tours_continer {
   display: grid;
-
   font-family: 'Lato';
   grid-template-columns: repeat(4, 1fr);
 }
@@ -36,3 +35,27 @@
 .tour {
   margin: 100px 0 75px 100px;
 }
+
+
+@media screen and (max-width: 720px) {
+  #tours_continer {
+    display: block;
+    height: 350px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .tour_card {
+    display: inline-block;
+  }
+
+  .tour {
+    margin: 0 20px;
+    padding-bottom: 1rem;
+  }
+  .tour img {
+    width: 60%;
+  }
+}
+

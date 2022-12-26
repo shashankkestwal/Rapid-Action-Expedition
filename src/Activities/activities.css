@@ -3,12 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 #activities_card_continer {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 25px;
   padding: 20px;
   grid-template-rows: repeat(3, 320px);
   grid-template-columns: repeat(3, 300px);
@@ -35,3 +34,40 @@
   width: 62%;
   color: #3E4F55;
 }
+
+@media screen and (max-width: 720px){
+  #activities_section {
+    padding: 40px 0;
+    display: block;
+    width: 100%;
+  }
+  #activities_card_continer {
+    display: block;
+    height: 300px;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  #activity_description {
+    width: 90%;
+    padding: 0 10px;
+  }
+  #a_style {
+    display: none;
+  }
+  #a_C {
+    display: flex;
+    flex-direction: column;
+  }
+  #activity_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #activity_text img {
+    width: 60%;
+  }
+}
+
+  

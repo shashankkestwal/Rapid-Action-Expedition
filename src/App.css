@@ -1,6 +1,5 @@
-#footer {
-}
 .headerImage {
+  width: 65%;
   position: relative;
   display: block;
   margin: 0 auto;
@@ -15,4 +14,16 @@
 
 .col {
   flex-direction: column;
+}
+#align {
+  height: 15rem;
+}
+@media screen and (max-width: 720px) {
+  .headerImage {
+    width: 80%;
+    padding-bottom: 180px
+  }
+  #align {
+    height: 20vh;
+  }
 }

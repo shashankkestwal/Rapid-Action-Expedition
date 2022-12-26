@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Head />
-      <div style={{height: "40vh"}}></div>
+      <div id="align"></div>
       <img className='headerImage' id="expedition" alt= "Rapid expedition details"  src={RadidExpedition} ></img>
       <div id="more_up">
         <Camp />
@@ -23,7 +23,7 @@ function App() {
         <Activities />
         <Tour />
         <Button data="Contact to Know More"/>  
-        <Footer />               
+        <Footer />          
       </div> 
       
     </div>

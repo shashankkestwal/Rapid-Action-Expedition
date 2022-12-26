@@ -2,9 +2,9 @@
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
-  height: 175px;
-  width: 115px;
-  padding: 0 2rem ;
+  height: 180px;
+  width: 150px;
+  padding: 0 3rem ;
 }
 
 #feature_component p {
@@ -27,4 +27,11 @@
   line-height: 20px;
   text-align: center;
   color: #3E4F55;
+}
+
+@media screen and (max-width: 720px)  {
+  #feature_component  {
+    height: auto;
+    padding-bottom: 10px;
+  }
 }

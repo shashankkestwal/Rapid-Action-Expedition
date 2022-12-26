@@ -12,12 +12,14 @@
 }
 
 #camp-img {
-  padding-bottom: 50px;
-/*  height: 200px;*/
+  padding-bottom: 40px;
 }
 
-/*
-#img2{
-  background-color: gree
-  n;
-}*/
+@media screen and (max-width: 720px) {
+  #camp {
+    width: 95%;
+  }
+  #camp-img {
+    width: 70%;
+  }
+}

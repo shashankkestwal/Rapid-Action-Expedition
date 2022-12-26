@@ -6,9 +6,19 @@
   align-items: center;
 }
 
-
-
 #feature_container {
   display: flex;
   padding-top: 3rem;
+}
+
+@media screen and (max-width: 720px) {
+  #features {
+    margin-top: 60px;
+  }
+  #feature_container {
+    flex-direction: column;
+  } 
+  #feature_text {
+    width: 60%;
+  }
 }

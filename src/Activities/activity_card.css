@@ -4,17 +4,15 @@
   font-weight: 800;
   font-size: 20px;
   line-height: 24px;
-/* identical to box height, or 120% */
-
-
-/* Ayurvedyam Secondary Button */
-
-color: #24292B;
+  color: #24292B;
+}
+#activity_card {
+  padding: 8px;
 }
 
 #activity_card p {
   margin: 10px 0 0 0 ;
-  padding: 0;
+  padding-bottom: 0;
 }
 #number { 
   margin: 0;
@@ -30,4 +28,10 @@ color: #24292B;
   font-size: 12px;
   line-height: 15px;
   color: #5D7781;
+}
+
+@media screen and (max-width: 720px) {
+  #activity_card {
+    display: inline-block;
+  }
 }

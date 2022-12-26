@@ -28,3 +28,29 @@
   max-height: 100%;
   object-fit: contain;
 } 
+
+@media screen and (max-width: 720px) {
+  #location {
+    padding-top: 50px;
+    width: 100%;
+  }
+  #location_text {
+    width: 60%;
+  }
+
+  #location_images {
+    display: block;
+    height: 350px;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  #location_images img {
+    width: 320px;
+    height: auto;
+  }
+  #location_images div {
+    display: inline-block;
+  }
+}

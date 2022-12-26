@@ -1,4 +1,4 @@
-import location_image from "./location_heading.jpg"
+import location_text from "./location_heading.jpg"
 import image from "../assets/img1.jpg"
 import LocationDetails from "./location_details.js"
 import "./location.css"
@@ -12,7 +12,7 @@ const location = (props) => {
   return (
         <div id="location_container">
           <div id="location">
-            <img src={location_image} alt="location image" />
+            <img id="location_text" src={location_text} alt="location image" />
             <div id="location_images"> 
               <div >
                 <img  src={image}/>
@@ -25,7 +25,6 @@ const location = (props) => {
               </div>
             </div>
             <LocationDetails />
-
           </div>
         </div>
           )

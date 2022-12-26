@@ -8,10 +8,10 @@ const tours = () => {
       <div className="flex col tour">
         <img src={tour_text} />
         <div id="tours_continer">
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
+          <TourCard tour_data="Adventure Tour" />
+          <TourCard tour_data="Wildlife Tour" />
+          <TourCard tour_data="Bike Tour" />
+          <TourCard tour_data="Tour Packages" />
         </div>
       </div>
         )

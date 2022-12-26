@@ -19,9 +19,9 @@ const location_details = () => {
                 <p className ="text" id="l_data">Shivpuri, located in the Shivalik Range of mountains and 16km from Rishikesh, is a small village famous for its adventure tourism and scenic backdrop. The major attraction of this village is the Ganga River, in which water sports like rafting and kayaking are operated.</p>
               </div>
               
-              <div id="map_button">
+              <div >
                 <img src={map_image} alt="map image"/>
-                <button onClick={gotoLocationUrl}>View Map</button>
+                <button id="map_button" onClick={gotoLocationUrl}>View Map</button>
               </div>
             </div>
             <img id="style" src={styling_background} alt="styling image" />

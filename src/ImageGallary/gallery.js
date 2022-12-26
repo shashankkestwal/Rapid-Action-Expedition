@@ -3,25 +3,7 @@ import img1 from "../assets/img1.jpg"
 import img2 from "../assets/img2.jpg"
 import img3 from "../assets/img3.jpg"
 import img4 from "../assets/img4.jpg"
-
-// const images = [
-//   '//placekitten.com/1500/500',
-//   '//placekitten.com/4000/3000',
-//   '//placekitten.com/800/1200',
-//   '//placekitten.com/1500/1500',
-// ];
-
-// const gallery = (props) => {
-
-//   return (
-            
-//             </div>
-//          )
-// }
-
-// export default gallery
-
-
+import img5 from "../assets/img5.png"
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
@@ -55,10 +37,10 @@ export default class gallery extends Component {
             <img src={img2} alt="Camp image" />
           </div>
           <div className="image" id="img3">
-            <img src={img2} alt="Camp image" />
+            <img src={img4} alt="Camp image" />
           </div>
-          <div className="image" id="img4" onClick={() => this.setState({ isOpen: true })}>
-            <img src={img2} alt="Camp image" />
+          <div className="image last" id="img4" onClick={() => this.setState({ isOpen: true })}>
+            <img src={img5} alt="Camp image" />
             <div id="more">View More+</div>
           </div>
 
