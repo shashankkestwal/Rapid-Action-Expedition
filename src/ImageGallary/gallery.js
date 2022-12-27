@@ -1,11 +1,12 @@
 import "./gallery.css"
-import img1 from "../assets/img1.jpg"
+import img1 from "../assets/img1.png"
 import img2 from "../assets/img2.jpg"
 import img3 from "../assets/img3.jpg"
 import img4 from "../assets/img4.jpg"
 import img5 from "../assets/img5.png"
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
+import {gallery_images} from '../data';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 const images = [
@@ -18,9 +19,9 @@ const images = [
 export default class gallery extends Component {
   constructor(props) {
     super(props);
-
+    console.log(gallery_images);
     this.state = {
-      photoIndex: 1,
+      photoIndex: 0,
       isOpen: false,
     };
   }

@@ -1,8 +1,8 @@
 import "./footer.css"
-import w_icon from "./whatsapp_icon.svg"
+import w_icon from "../assets/whatsapp_icon.svg"
 import pentart_logo from "../assets/pentart_logo.png"
-import mail_icon from "./mail_icon.svg"
-import footer_copy_icon from "./footer_copy_icon.svg"
+import mail_icon from "../assets/mail_icon.svg"
+import footer_copy_icon from "../assets/footer_copy_icon.svg"
 const footer = (props) => {
   return(
           <div className="flex" id="footer">

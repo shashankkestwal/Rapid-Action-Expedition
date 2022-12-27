@@ -1,4 +1,4 @@
-import feature_text from "./features_heading.svg"
+import feature_text from "../assets/features_heading.svg"
 import FeatureComponent from "./feature_component.js"
 import tent from "../assets/tents.png"
 import food from "../assets/foods.png"

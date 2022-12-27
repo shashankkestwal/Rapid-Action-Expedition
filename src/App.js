@@ -1,5 +1,5 @@
 import './App.css';
-import RadidExpedition from './HeadSection/rapid_expedition.svg'
+import RadidExpedition from './assets/rapid_expedition.svg'
 
 import Head from './HeadSection/Head.js'
 import Camp from './Camp/Camp.js'

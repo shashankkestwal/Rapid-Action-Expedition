@@ -1,5 +1,5 @@
 import './camp.css'
-import TheCamp from "./camp.svg"
+import TheCamp from "../assets/camp.svg"
 import ImageGallery from "../ImageGallary/gallery.js"
 import Paragraph from "./paragraph.js"
 import Button from "../Button/button.js"

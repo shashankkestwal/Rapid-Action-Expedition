@@ -1,7 +1,15 @@
-import location_text from "./location_heading.jpg"
-import image from "../assets/img1.jpg"
+import location_text from "../assets/location_heading.jpg"
+
+import img2 from "../assets/img2.jpg"
+import img3 from "../assets/img3.jpg"
+import img6 from "../assets/img6.jpg"
+
 import LocationDetails from "./location_details.js"
 import "./location.css"
+
+const images_count = 3;
+
+const images_url = [img3, img2, img6]
 
 
 const lat_long = {
@@ -14,7 +22,12 @@ const location = (props) => {
           <div id="location">
             <img id="location_text" src={location_text} alt="location image" />
             <div id="location_images"> 
-              <div >
+              {Array.from(Array(3), (e, i) => {
+                return<div >
+                         <img src={images_url[i]}/>
+                      </div>
+              })}
+              {/*<div >
                 <img  src={image}/>
               </div>
               <div>
@@ -22,7 +35,7 @@ const location = (props) => {
               </div>
               <div>
                 <img  src={image}/>
-              </div>
+              </div>*/}
             </div>
             <LocationDetails />
           </div>
