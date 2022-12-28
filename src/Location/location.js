@@ -27,15 +27,6 @@ const location = (props) => {
                          <img src={images_url[i]}/>
                       </div>
               })}
-              {/*<div >
-                <img  src={image}/>
-              </div>
-              <div>
-                <img  src={image}/>
-              </div>
-              <div>
-                <img  src={image}/>
-              </div>*/}
             </div>
             <LocationDetails />
           </div>

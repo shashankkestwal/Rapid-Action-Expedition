@@ -27,3 +27,11 @@
     height: 20vh;
   }
 }
+
+a {
+    all: unset;
+}
+
+p {
+    margin: 0;
+}

@@ -1,3 +1,11 @@
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+} from 'react-router-dom';
+
+
 import "./footer.css"
 import w_icon from "../assets/whatsapp_icon.svg"
 import pentart_logo from "../assets/pentart_logo.png"
@@ -13,7 +21,7 @@ const footer = (props) => {
               </div>
             <div className="flex col footer-div">
               <ul>
-                <li>About Us</li>
+                <li><Link to="/About">About Us</Link></li>
                 <li>Contact Us</li>
                 <li>Blogs</li>
                 <li>Terms & Conditions</li>

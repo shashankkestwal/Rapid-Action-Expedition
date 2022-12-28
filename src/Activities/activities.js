@@ -1,53 +1,67 @@
+// import React from "react"
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
 import "./activities.css"
 import activities_text_image from "../assets/activities_heading.jpg"
 import styling_background from "../assets/styling_background.jpg"
-import img3 from "../assets/img3.jpg"
-import img1 from "../assets/img4.jpg"
-import img2 from "../assets/img5.png"
 
 import ActivityCard from "./activity_card.js"
 
-const activity_card_data = [{
-                              image : img1,
-                              activity : "Camping in Shivpuri", 
-                              price: "1500"
-                            }, {
-                              image : img2,
-                              activity : "Rafitng 12Km", 
-                              price: "600"
-                            },{
-                              image : img3,
-                              activity : "Camping and Rafting Package", 
-                              price: "1800"
-                            },{
-                              image : img1,
-                              activity : "Camping in Shivpuri", 
-                              price: "1500"
-                            },{
-                              image : img2,
-                              activity : "Rafitng 12Km", 
-                              price: "600"
-                            },{
-                              image : img3,
-                              activity : "Camping and Rafting Package", 
-                              price: "1800"
-                            },{
-                              image : img1,
-                              activity : "Camping in Shivpuri", 
-                              price: "1500"
-                            },{
-                              image : img2,
-                              activity : "Rafitng 12Km", 
-                              price: "600"
-                            },{
-                              image : img3,
-                              activity : "Camping and Rafting Package", 
-                              price: "1800"
-                            }
-  ]
+// const activity_card_data = [{
+//                               image : img1,
+//                               activity : "Camping in Shivpuri", 
+//                               price: "1500"
+//                             }, {
+//                               image : img2,
+//                               activity : "Rafitng 12Km", 
+//                               price: "600"
+//                             },{
+//                               image : img3,
+//                               activity : "Camping and Rafting Package", 
+//                               price: "1800"
+//                             },{
+//                               image : img1,
+//                               activity : "Camping in Shivpuri", 
+//                               price: "1500"
+//                             },{
+//                               image : img2,
+//                               activity : "Rafitng 12Km", 
+//                               price: "600"
+//                             },{
+//                               image : img3,
+//                               activity : "Camping and Rafting Package", 
+//                               price: "1800"
+//                             },{
+//                               image : img1,
+//                               activity : "Camping in Shivpuri", 
+//                               price: "1500"
+//                             },{
+//                               image : img2,
+//                               activity : "Rafitng 12Km", 
+//                               price: "600"
+//                             },{
+//                               image : img3,
+//                               activity : "Camping and Rafting Package", 
+//                               price: "1800"
+//                             }
+//   ]
 
 
-const activities = (props) => {
+
+
+const Activities = (props) => {
+  const [activity_card_data, set_card_data] = useState([])
+
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000" + "/data.json")
+      .then((res) => {
+        set_card_data(res.data)
+      })
+  })
+
   return(
       <div id="activities_section">
         <div id="activity_text">
@@ -76,4 +90,4 @@ const activities = (props) => {
         )
 }
 
-export default activities;
+export default Activities;

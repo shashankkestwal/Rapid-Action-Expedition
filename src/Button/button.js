@@ -3,13 +3,12 @@ import "./button.css"
 
 const button = (props)=>{
   return (
-          <div className="flex">
-            <div className="button-container">
+            <div className="flex button-container">
               <img  className="style_img"src={style_image} alt="styling image" / >
               <button id="contact_button">{props.data}</button>
               <img id="first" className="style_img"src={style_image} alt="styling image" / >
             </div>
-          </div>
+
          )
 }
 

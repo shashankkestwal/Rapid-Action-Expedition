@@ -16,19 +16,21 @@
 #location_images {
   padding-top: 80px;
   display: grid;
-  grid-template-columns: repeat(3, 315px);
+  grid-template-columns: repeat(3, 310px);
   grid-template-rows: repeat(1, 235px);
 }
 #location_images div {
-  padding: 5px ;
+  padding: 10px;
 }
 #location_images img {
   border-radius: 8px;
   width: 100%;
   height: 100%;
 } 
-
 @media screen and (max-width: 720px) {
+  #style_image {
+    display: none;
+  }
   #location {
     padding-top: 50px;
     width: 100%;
@@ -39,7 +41,6 @@
   #location_images {
     display: block;
     height: 350px;
-    width: 90%;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -50,6 +51,7 @@
   #location_images div { 
     height: 325px;
     min-width: 75%;
+    max-width: 90%;
     display: inline-block;
   }
 }
