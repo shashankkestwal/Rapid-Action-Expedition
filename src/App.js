@@ -13,12 +13,11 @@ import Footer from "./Footer/footer.js"
 function App() {
   return (
     <Router >
-      <Routes>
-        <Route path='/' element={< LandingPage />}></Route>
 
+      <Routes>
+        <Route exact path='/' element={< LandingPage />}></Route>
         <Route path='/About' element={< About />}></Route>
         <Route path='*' component={ <NotFound/> } />
-
       </Routes>
       <Footer />  
     </Router>

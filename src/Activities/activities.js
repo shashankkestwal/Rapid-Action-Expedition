@@ -56,7 +56,7 @@ const Activities = (props) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000" + "/data.json")
+      .get(`${window.location.origin.toString()}` + "/data.json")
       .then((res) => {
         set_card_data(res.data)
       })

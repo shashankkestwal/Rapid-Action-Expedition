@@ -22,8 +22,7 @@ const landing_page = () => {
           <Location />
           <Activities />
           <Tour />
-          <Button data="Contact to Know More"/>  
-                  
+          <Button data="Contact to Know More"/>        
         </div> 
       </div>
     );
