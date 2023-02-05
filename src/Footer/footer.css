@@ -1,4 +1,6 @@
 #footer {
+  position: relative;
+  top: 75px;
   font-family: 'Poppins', sans-serif;
   color: #FFFFFF;
   margin-top: 8rem;

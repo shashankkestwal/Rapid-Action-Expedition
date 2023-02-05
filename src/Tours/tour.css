@@ -2,12 +2,15 @@
   display: grid;
   font-family: 'Lato';
   grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 50px;
 }
 #tours_continer p {
   padding-top: 10px;
   margin: 0;
 }
-
+.tour_contact{
+  padding-bottom: 100px;
+}
 #tours_continer img {
   width: 250px;
 }
@@ -56,6 +59,9 @@
   }
   .tour img {
     width: 60%;
+  }
+  .tour_contact {
+    display: none;
   }
 }
 

@@ -3,7 +3,7 @@
   position: relative;
   display: block;
   margin: 0 auto;
-  padding-bottom: 400px;
+  padding-bottom: 30%;
 }
 
 .flex {
@@ -12,19 +12,21 @@
   justify-content: center;
 }
 
+#content {
+  transform: translate(0, 4%);
+}
+
 .col {
   flex-direction: column;
 }
-#align {
-  height: 15rem;
-}
+
 @media screen and (max-width: 720px) {
   .headerImage {
-    width: 80%;
-    padding-bottom: 180px
+    width: 75%;
+    padding-bottom: 170px
   }
-  #align {
-    height: 20vh;
+  #content {
+    transform: translate(0, 1.75%);
   }
 }
 

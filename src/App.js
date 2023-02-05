@@ -19,7 +19,7 @@ function App() {
         <Route path='/About' element={< About />}></Route>
         <Route path='*' component={ <NotFound/> } />
       </Routes>
-      <Footer />  
+      <Footer/> 
     </Router>
   );
 }

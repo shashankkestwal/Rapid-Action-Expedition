@@ -11,6 +11,10 @@
 /*#backgroundSize {
   visibility: hidden;
 }*/
-
+@media screen and (max-width: 720px) {
+  #head img {
+    height: 80%;
+  }
+}
 
 
