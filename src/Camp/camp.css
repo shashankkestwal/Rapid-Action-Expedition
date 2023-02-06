@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   width: 810px;
+  margin-top: -37.5rem;
 /*  display: inline-block;*/
 }
 
@@ -18,8 +19,10 @@
 @media screen and (max-width: 720px) {
   #camp {
     width: 95%;
+    margin-top: -10.5rem
   }
   #camp-img {
     width: 70%;
   }
 }
+

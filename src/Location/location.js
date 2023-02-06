@@ -1,4 +1,4 @@
-import location_text from "../assets/location_heading.jpg"
+import location_text from "../assets/location_heading.svg"
 
 import img2 from "../assets/img2.jpg"
 import img3 from "../assets/img3.jpg"

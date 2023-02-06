@@ -34,4 +34,9 @@
     height: auto;
     padding-bottom: 10px;
   }
+
+  .feature_icon{
+    width: 4rem;
+    align-self: center;
+  }
 }

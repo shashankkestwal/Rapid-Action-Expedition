@@ -1,10 +1,10 @@
 import feature_text from "../assets/features_heading.svg"
 import FeatureComponent from "./feature_component.js"
-import tent from "../assets/tents.png"
-import food from "../assets/foods.png"
-import pool from "../assets/pools.png"
-import washroom from "../assets/washroom.png"
-import sports from "../assets/sports.png"
+import tent from "../assets/tents_icon.svg"
+import food from "../assets/food_icon.svg"
+import pool from "../assets/pool_icon.svg"
+import washroom from "../assets/washroom_icon.svg"
+import sports from "../assets/sports_icon.svg"
 
 import "./feature.css"
 

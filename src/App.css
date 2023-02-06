@@ -1,9 +1,11 @@
 .headerImage {
   width: 65%;
-  position: relative;
+  position: absolute;
   display: block;
-  margin: 0 auto;
-  padding-bottom: 30%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 43%;
+  padding-bottom: 0;
 }
 
 .flex {
@@ -13,21 +15,29 @@
 }
 
 #content {
-  transform: translate(0, 4%);
+/*  transform: translate(0, 4%);*/
 }
 
 .col {
   flex-direction: column;
 }
 
+@media only screen  and (max-width: 1204px) and (min-width: 1000px){
+    .headerImage {
+    left: 50%;
+    top: 35%;
+  }
+  
+}
+
+
 @media screen and (max-width: 720px) {
   .headerImage {
     width: 75%;
-    padding-bottom: 170px
+    left: 50%;
+    top: 12%;
   }
-  #content {
-    transform: translate(0, 1.75%);
-  }
+
 }
 
 a {

@@ -43,7 +43,7 @@ const footer = (props) => {
                 </li>
                 <li>
                   <img className="footer_icon"  src={mail_icon} />
-                  info@yogsidhi.com 
+                  info@rapidactionexpedition.com 
                   <img  src={footer_copy_icon} />
                 </li>
                 <li></li>

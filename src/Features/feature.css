@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+  #feature_text {
+    margin-bottom: 1.5rem;
+  }
+
 #feature_container {
   display: flex;
   width: 75%;
@@ -21,8 +25,10 @@
   #feature_container {
     width: 100%;
     flex-direction: column;
+    gap: 2rem;
   } 
   #feature_text {
     width: 75%;
+    margin-bottom: 1.5rem;
   }
 }
