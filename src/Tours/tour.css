@@ -1,15 +1,19 @@
 #tours_continer {
+
   display: grid;
   font-family: 'Lato';
   grid-template-columns: repeat(4, 1fr);
-  padding-bottom: 50px;
+  padding: 50px;
 }
 #tours_continer p {
   padding-top: 10px;
   margin: 0;
 }
 #tours_continer img {
-  width: 250px;
+  width: auto;
+  height:200px;
+  max-width: 200px;
+  border-radius: 3%;
 }
 .sta {  
   color: #3E4F55;
@@ -36,6 +40,9 @@
   margin: 100px 0 25px 100px;
 }
 
+.tour_card {
+  padding-right: 1rem;
+}
 
 @media screen and (max-width: 720px) {
   #tours_continer {

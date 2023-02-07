@@ -11,6 +11,12 @@ import w_icon from "../assets/whatsapp_icon.svg"
 import pentart_logo from "../assets/pentart_logo.png"
 import mail_icon from "../assets/mail_icon.svg"
 import footer_copy_icon from "../assets/footer_copy_icon.svg"
+
+const copyToClipboard = () => {
+  navigator.clipboard.writeText("info@rapidactionexpedition.com");
+  console.log("copied")
+}
+
 const footer = (props) => {
   return(
           <div className="flex" id="footer">
@@ -39,12 +45,12 @@ const footer = (props) => {
               <ul>
                 <li>
                   <img className="footer_icon" src={w_icon} />
-                  +91 6398 669 195
+                  +91 941 1191 687
                 </li>
-                <li>
+                <li  className="email_copy">
                   <img className="footer_icon"  src={mail_icon} />
                   info@rapidactionexpedition.com 
-                  <img  src={footer_copy_icon} />
+                  <img onClick={copyToClipboard} src={footer_copy_icon} />
                 </li>
                 <li></li>
                 <li><p id="copyright">Copyright RapidActionExpedition © 2021. All rights reserved.</p></li>

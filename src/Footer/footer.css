@@ -8,6 +8,10 @@
   justify-content: space-evenly;
 }
 
+.email_copy {
+  cursor: copy;
+}
+
 #logo {
   padding: 0 3px;
   background: #373F42;
@@ -22,7 +26,6 @@
 }
 
 #footer ul {
-  cursor: pointer;
   padding: 0;
   font-style: normal;
   font-weight: 500;
