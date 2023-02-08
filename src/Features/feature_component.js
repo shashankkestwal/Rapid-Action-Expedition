@@ -1,4 +1,4 @@
-import tents from "../assets/tents.png"
+import tents from "../assets/tents_icon.svg"
 import "./feature_component.css"
 
 const feature_component = (props) => {

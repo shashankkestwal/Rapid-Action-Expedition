@@ -1,5 +1,6 @@
 import './App.css';
 import RadidExpedition from './assets/rapid_expedition.svg'
+import TopNavigation from './DesktopNavigationBar.js'
 
 import Head from './HeadSection/Head.js'
 import Camp from './Camp/Camp.js'
@@ -12,6 +13,7 @@ import Footer from "./Footer/footer.js"
 const landing_page = () => {
   return (
       <div className="App">
+      <TopNavigation />
         <Head />
         <div id="content">
           <img className='headerImage' id="expedition" alt= "Rapid expedition details"  src={RadidExpedition} ></img>

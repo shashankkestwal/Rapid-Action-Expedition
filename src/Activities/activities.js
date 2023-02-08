@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import "./activities.css"
-import activities_text_image from "../assets/activities_heading.jpg"
+import activities_text_image from "../assets/activities_heading.svg"
 import styling_background from "../assets/styling_background.jpg"
 
 import ActivityCard from "./activity_card.js"
@@ -69,7 +69,7 @@ const Activities = (props) => {
         </div>
         <img id="a_style" src={styling_background}/>
         <div id="a_C">
-          <p id="activity_description" style={{paddingLeft: "10px"}}>These courses are to provide you in depth knowledge of how choosing the yogic practices. </p>
+          <p id="activity_description">Explore the activities and packages provided by rapidactionexpedition in rishikesh. We are open for all adventurers who want to spend some quality time at this place. </p>
           <div id="activities_card_continer">
           {activity_card_data.map((card_data) =>{
             return <ActivityCard image={card_data.image} activity={card_data.activity} price={card_data.price} />            

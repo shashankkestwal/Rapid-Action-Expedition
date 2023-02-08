@@ -6,11 +6,12 @@
 }
 
 #activities_card_continer {
-  display: grid;
-  grid-gap: 25px;
-  padding: 20px;
-  grid-template-rows: repeat(3, 320px);
-  grid-template-columns: repeat(3, 300px);
+  display: grid;;
+  padding: 1.25rem;
+  grid-template-rows: repeat(3, 34%);
+  grid-template-columns: repeat(3, 34%);
+  align-items: center;
+  row-gap: 1rem;
 }
 
 #a_style {
@@ -23,50 +24,70 @@
 #a_C {
   background-color: white;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
+  border-radius: 1em;
+  max-width: 1028px;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-bottom: 4rem;
 }
 
 #activity_description {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'lato', sans-serif;
+  line-height: 1.7rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   width: 62%;
   color: #3E4F55;
+  padding: 1.5rem;
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 720px){
   #activities_section {
-    padding: 40px 0;
+    padding: 40px 0 0;
     display: block;
     width: 100%;
   }
   #activities_card_continer {
     display: block;
     height: 300px;
-    width: 90%;
+    width: 88%;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
   }
+  #activities_card_continer::-webkit-scrollbar{
+    display: none;
+  }
+
+
   #activity_description {
     width: 90%;
-    padding: 0 10px;
+    padding: 1.5rem 0 0 1.5rem;
+    padding-bottom: 0;
   }
   #a_style {
     display: none;
   }
+
   #a_C {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    background: none;
+    box-shadow: none;
+    padding: 0;
   }
+
   #activity_text {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   #activity_text img {
-    width: 60%;
+    height: 4.6rem;
+    padding-bottom: 1.25rem;
   }
 }
 

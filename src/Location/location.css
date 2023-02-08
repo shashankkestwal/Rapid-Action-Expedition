@@ -72,13 +72,13 @@
   }
   #location_images {
     display: block;
-    width: 100%;
+    width: 84%;
     height: 350px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
     margin-top: -16rem;
-    left: 52%;
+    left: 51%;
   }
 
   #location_images::-webkit-scrollbar {

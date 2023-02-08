@@ -26,6 +26,7 @@
     z-index: -2;
     left: 50%;
     top: 128%;
+    width: 670px;
 }
 
 #style {
@@ -33,8 +34,12 @@
     width: 180px;
     height: 110px;
     top: 334px;
-    left: 300px;
+    left: 345px;
     position: relative;
+}
+
+.mobile_map_image{
+  display: none;
 }
 
 #map_button {
@@ -46,7 +51,7 @@
   font-size: 14px;
   color: #24292B;
   position: relative;
-  top: -32%;
+  top: -30%;
   left: 50%;
   border-radius: 8px;
   transform: translate(-50%, -50%);
@@ -81,10 +86,21 @@
     justify-content: center;
     width: 90%;
     padding-top: 23rem;
+    box-sizing: border-box;
+    left: 51%;
+  }
+
+  .mobile_map_image{
+    display: block;
+    max-width: 100%;
+  }
+
+  .map_image{
+    display: none;
   }
 
   #map_button {
     display: block;
-    top: -60px;
+    top: -46px;
   }
 }

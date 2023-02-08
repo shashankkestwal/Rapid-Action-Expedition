@@ -8,14 +8,14 @@ import {
 
 import "./footer.css"
 import w_icon from "../assets/whatsapp_icon.svg"
-import pentart_logo from "../assets/pentart_logo.png"
+import pentart_logo from "../assets/pentartstudio_logo.svg"
 import mail_icon from "../assets/mail_icon.svg"
 import footer_copy_icon from "../assets/footer_copy_icon.svg"
 
 const copyToClipboard = () => {
   navigator.clipboard.writeText("info@rapidactionexpedition.com");
   console.log("copied")
-}
+} 
 
 const footer = (props) => {
   return(
@@ -29,8 +29,6 @@ const footer = (props) => {
               <ul>
                 <li><Link to="/About">About Us</Link></li>
                 <li>Contact Us</li>
-                <li>Blogs</li>
-                <li>Terms & Conditions</li>
               </ul>
             </div>
             <div className="flex col footer-div">
@@ -45,12 +43,12 @@ const footer = (props) => {
               <ul>
                 <li>
                   <img className="footer_icon" src={w_icon} />
-                  +91 941 1191 687
+                  +91 94111 91687
                 </li>
-                <li  className="email_copy">
+                <li onClick={copyToClipboard}>
                   <img className="footer_icon"  src={mail_icon} />
-                  info@rapidactionexpedition.com 
-                  <img onClick={copyToClipboard} src={footer_copy_icon} />
+                  <p className="business_email">info@rapidactionexpedition.com </p>
+                  <img  src={footer_copy_icon} />
                 </li>
                 <li></li>
                 <li><p id="copyright">Copyright RapidActionExpedition © 2021. All rights reserved.</p></li>

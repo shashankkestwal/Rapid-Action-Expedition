@@ -1,14 +1,18 @@
+import TopNavigation from './DesktopNavigationBar.js'
 import AboutBackground from "./assets/about_background.png"
-import AboutHeading from "./assets/about_heading.png"
+import mobileAbtUsHeader from "./assets/mobile_abtUs_header.png"
+import AboutHeading from "./assets/aboutHeading.svg"
 import Rishikesh_bg from "./assets/rishikesh_bg.png"
 import "./About.css"
 
 const About = (props) => {
   return(
           <div id="about">
+          <TopNavigation />
             <div id="blackSpot"></div>
             <div id="backgroundAbout">
               <img src={AboutBackground} alt="background about"></img>
+              <img src={mobileAbtUsHeader} className="mobile_abtUs_header"></img>
             </div>
             <img id="AboutHeading" src={AboutHeading} alt="background about"></img>
             <div className="flex" id="about_container">
@@ -26,7 +30,7 @@ const About = (props) => {
                   our owner, we are maintaining our standards of excellence since our inception.                 
                 </p>
                 <br/>
-                <p className="paragraph" id="about_details_smaller">
+                <p className="paragraph" id="about_details">
                   Travelling gives you a chance of learning many new things about the
                   world as well as yourself. Be it a long journey or a travel excursion,
                   taking a vacation always gives you a chance to explore the unseen

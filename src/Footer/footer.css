@@ -1,15 +1,11 @@
 #footer {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'lato', sans-serif;
   color: #FFFFFF;
-  margin-top: 5rem;
   padding: 30px 0 ;
   background: #373F42;
   justify-content: space-evenly;
-}
-
-.email_copy {
-  cursor: copy;
+  margin-top: 6rem;
 }
 
 #logo {
@@ -21,11 +17,12 @@
   justify-content: flex-start;
   align-items: start;
   min-width: 150px;
-  max-width: 250px;
+  max-width: 280px;
   font-size: 14px;
 }
 
 #footer ul {
+  cursor: pointer;
   padding: 0;
   font-style: normal;
   font-weight: 500;
@@ -35,6 +32,11 @@
 
 #footer li {
   padding: 4px 0;
+}
+
+.business_email{
+  top: -4px;
+  display: inline;
 }
 
 #s_text {
@@ -55,6 +57,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 15%;
+    padding-left: 10%;
+    margin-top: 2rem;
   }
+
+  .footer-div {
+  max-width: 250px;
+}
 }
