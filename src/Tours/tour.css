@@ -3,7 +3,7 @@
   display: grid;
   font-family: 'Lato';
   grid-template-columns: repeat(4, 1fr);
-  padding: 50px;
+  padding: 50px 0;
 }
 #tours_continer p {
   padding-top: 10px;

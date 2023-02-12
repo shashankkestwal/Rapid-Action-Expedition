@@ -5,55 +5,55 @@ import axios from 'axios';
 import "./activities.css"
 import activities_text_image from "../assets/activities_heading.svg"
 import styling_background from "../assets/styling_background.jpg"
-
+import img1 from "../assets/img2.jpg"
+import img2 from "../assets/img3.jpg"
+import img3 from "../assets/img6.jpg"
 import ActivityCard from "./activity_card.js"
 
-// const activity_card_data = [{
-//                               image : img1,
-//                               activity : "Camping in Shivpuri", 
-//                               price: "1500"
-//                             }, {
-//                               image : img2,
-//                               activity : "Rafitng 12Km", 
-//                               price: "600"
-//                             },{
-//                               image : img3,
-//                               activity : "Camping and Rafting Package", 
-//                               price: "1800"
-//                             },{
-//                               image : img1,
-//                               activity : "Camping in Shivpuri", 
-//                               price: "1500"
-//                             },{
-//                               image : img2,
-//                               activity : "Rafitng 12Km", 
-//                               price: "600"
-//                             },{
-//                               image : img3,
-//                               activity : "Camping and Rafting Package", 
-//                               price: "1800"
-//                             },{
-//                               image : img1,
-//                               activity : "Camping in Shivpuri", 
-//                               price: "1500"
-//                             },{
-//                               image : img2,
-//                               activity : "Rafitng 12Km", 
-//                               price: "600"
-//                             },{
-//                               image : img3,
-//                               activity : "Camping and Rafting Package", 
-//                               price: "1800"
-//                             }
-//   ]
+const activity_card_data = [{
+                              image : img1,
+                              activity : "Camping in Shivpuri", 
+                              price: "1500"
+                            }, {
+                              image : img2,
+                              activity : "Rafting 12Km", 
+                              price: "600"
+                            },{
+                              image : img3,
+                              activity : "Camping and Rafting Package", 
+                              price: "1800"
+                            },{
+                              image : img1,
+                              activity : "Camping in Shivpuri", 
+                              price: "1500"
+                            },{
+                              image : img2,
+                              activity : "Rafting 12Km", 
+                              price: "600"
+                            },{
+                              image : img3,
+                              activity : "Camping and Rafting Package", 
+                              price: "1800"
+                            },{
+                              image : img1,
+                              activity : "Camping in Shivpuri", 
+                              price: "1500"
+                            },{
+                              image : img2,
+                              activity : "Rafting 12Km", 
+                              price: "600"
+                            },{
+                              image : img3,
+                              activity : "Camping and Rafting Package", 
+                              price: "1800"
+                            }
+  ]
 
 
 
 
 const Activities = (props) => {
   const [activity_card_data, set_card_data] = useState([])
-
-
   useEffect(() => {
     axios
       .get(`${window.location.origin.toString()}` + "/data.json")

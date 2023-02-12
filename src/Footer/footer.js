@@ -4,18 +4,23 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-
-
 import "./footer.css"
 import w_icon from "../assets/whatsapp_icon.svg"
 import pentart_logo from "../assets/pentartstudio_logo.svg"
 import mail_icon from "../assets/mail_icon.svg"
 import footer_copy_icon from "../assets/footer_copy_icon.svg"
 
+
+const Wapp_link = "https://wa.me/919411191687"
+
 const copyToClipboard = () => {
   navigator.clipboard.writeText("info@rapidactionexpedition.com");
   console.log("copied")
 } 
+
+const openWhattsapp = () => {
+  window.open(Wapp_link, "_blank")
+}
 
 const footer = (props) => {
   return(
@@ -41,7 +46,7 @@ const footer = (props) => {
             </div>
             <div className="flex col footer-div">
               <ul>
-                <li>
+                <li onClick= {openWhattsapp}>
                   <img className="footer_icon" src={w_icon} />
                   +91 94111 91687
                 </li>
