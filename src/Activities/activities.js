@@ -12,24 +12,24 @@ import ActivityCard from "./activity_card.js"
 
 const activity_card_data = [{
                               image : img1,
-                              activity : "Camping in Shivpuri", 
-                              price: "1500"
+                              activity : "Normal Camp", 
+                              price: "1200"
                             }, {
                               image : img2,
-                              activity : "Rafting 12Km", 
-                              price: "600"
+                              activity : "Luxary Camp", 
+                              price: "1600"
                             },{
                               image : img3,
-                              activity : "Camping and Rafting Package", 
-                              price: "1800"
-                            },{
-                              image : img1,
-                              activity : "Camping in Shivpuri", 
-                              price: "1500"
-                            },{
-                              image : img2,
                               activity : "Rafting 12Km", 
                               price: "600"
+                            },{
+                              image : img1,
+                              activity : "Rafting 12Km", 
+                              price: "800"
+                            },{
+                              image : img2,
+                              activity : "Rafting 26Km", 
+                              price: "1200"
                             },{
                               image : img3,
                               activity : "Camping and Rafting Package", 
@@ -53,14 +53,6 @@ const activity_card_data = [{
 
 
 const Activities = (props) => {
-  const [activity_card_data, set_card_data] = useState([])
-  useEffect(() => {
-    axios
-      .get(`${window.location.origin.toString()}` + "/data.json")
-      .then((res) => {
-        set_card_data(res.data)
-      })
-  })
 
   return(
       <div id="activities_section">
@@ -75,15 +67,7 @@ const Activities = (props) => {
             return <ActivityCard image={card_data.image} activity={card_data.activity} price={card_data.price} />            
           } )}
 
-            {/*<ActivityCard activity="Camping in Shivpuri" price="1500" />
-            <ActivityCard activity="Rafting 12 Km" price="600"/>
-            <ActivityCard activity="Camping and Rafting Package" price="1800"/>
-            <ActivityCard activity="Camping in Shivpuri" price="1500"/>
-            <ActivityCard activity="Rafting 12 Km" price="600"/>
-            <ActivityCard activity="Camping and Rafting Package" price="1800"/>
-            <ActivityCard activity="Camping in Shivpuri" price="1500" />
-            <ActivityCard activity="Rafting 12 Km" price="600"/>
-            <ActivityCard activity="Camping and Rafting Package" price="1800"/>*/}
+            
           </div> 
         </div>
       </div>

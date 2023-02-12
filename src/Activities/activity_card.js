@@ -17,7 +17,7 @@ const activity_card = (props) => {
 activity_card.defaultProps = {
   image : image,
   activity : "Activity Prop", 
-  price: "999 "
+  price: "999"
 }
 
 export default activity_card

@@ -17,7 +17,7 @@
 }
 
 #location_images {
-    padding-top: 80px;
+    padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 310px);
     grid-template-rows: repeat(1, 235px);
@@ -63,6 +63,7 @@
   #location {
     padding-top: 50px;
     width: 100%;
+    margin-bottom: 30px;
   }
 
 
