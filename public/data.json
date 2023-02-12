@@ -1,38 +1,39 @@
-[{
-                              "image" : "/assets/img1.png",
-                              "activity" : "Camping in Shivpuri", 
-                              "price": "1500"
-                            }, {
-                              "image" : "/assets/img2.jpg",
-                              "activity" : "Rafitng 12Km", 
-                              "price": "600"
-                            },{
-                              "image" : "/assets/img3.jpg",
-                              "activity" : "Camping and Rafting Package", 
-                              "price": "1800"
-                            },{
-                              "image" : "/assets/img1.png",
-                              "activity" : "Camping in Shivpuri", 
-                              "price": "1500"
-                            },{
-                              "image" : "/assets/img2.jpg",
-                              "activity" : "Rafitng 12Km", 
-                              "price": "600"
-                            },{
-                              "image" : "/assets/img3.jpg",
-                              "activity" : "Camping and Rafting Package", 
-                              "price": "1800"
-                            },{
-                              "image" : "/assets/img1.png",
-                              "activity" : "Camping in Shivpuri", 
-                              "price": "1500"
-                            },{
-                              "image" : "/assets/img2.jpg",
-                              "activity" : "Rafitng 12Km", 
-                              "price": "600"
-                            },{
-                              "image" : "/assets/img3.jpg",
-                              "activity" : "Camping and Rafting Package", 
-                            "  price": "1800"
-                            }
-  ]
+[
+  {
+    "image" : "/assets/img1.png",
+    "activity" : "Camping in Shivpuri", 
+    "price": "1500"
+  }, {
+    "image" : "/assets/img2.jpg",
+    "activity" : "Rafitng 12Km", 
+    "price": "600"
+  },{
+    "image" : "/assets/img3.jpg",
+    "activity" : "Camping and Rafting Package", 
+    "price": "1800"
+  },{
+    "image" : "/assets/img1.png",
+    "activity" : "Camping in Shivpuri", 
+    "price": "1500"
+  },{
+    "image" : "/assets/img2.jpg",
+    "activity" : "Rafitng 12Km", 
+    "price": "600"
+  },{
+    "image" : "/assets/img3.jpg",
+    "activity" : "Camping and Rafting Package", 
+    "price": "1800"
+  },{
+    "image" : "/assets/img1.png",
+    "activity" : "Camping in Shivpuri", 
+    "price": "1500"
+  },{
+    "image" : "/assets/img2.jpg",
+    "activity" : "Rafitng 12Km", 
+    "price": "600"
+  },{
+    "image" : "/assets/img3.jpg",
+    "activity" : "Camping and Rafting Package", 
+  "  price": "1800"
+  }
+]
