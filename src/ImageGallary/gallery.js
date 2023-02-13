@@ -1,11 +1,9 @@
 import "./gallery.css"
 import img1 from "../assets/gallery_images/img1.png"
 import img2 from "../assets/gallery_images/img2.png"
-import img3 from "../assets/gallery_images/img3.png"
 import img4 from "../assets/gallery_images/img4.png"
 import img5 from "../assets/gallery_images/img5.png"
 import img6 from "../assets/gallery_images/img6.png"
-import img7 from "../assets/gallery_images/img7.png"
 import img8 from "../assets/gallery_images/img8.png"
 import img9 from "../assets/gallery_images/img9.png"
 import img10 from "../assets/gallery_images/img10.png"
@@ -25,11 +23,9 @@ import 'react-image-lightbox/style.css'; // This only needs to be imported once 
 const images = [
   img1,
   img2,
-  img3,
   img4,
   img5,
   img6,
-  img7,
   img8,
   img9,
   img10,
