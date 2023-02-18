@@ -59,14 +59,15 @@
   }
 
   #location {
+    align-items: center;
     justify-content: center;
     padding-top: 50px;
     width: 100%;
   }
   #location_text {
     width: 60%;
-    position: relative;
-    top: -28rem;
+    top: -30rem;
+    left: 25%;
   }
 
   #location_images {
