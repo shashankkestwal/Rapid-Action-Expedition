@@ -56,21 +56,19 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 30rem;
-    margin-top: 34rem;
   }
 
   #location {
+    justify-content: center;
     padding-top: 50px;
     width: 100%;
-    margin-bottom: 30px;
   }
-
-
   #location_text {
     width: 60%;
-    top: -892%;
+    position: relative;
+    top: -28rem;
   }
+
   #location_images {
     display: block;
     width: 84%;

@@ -19,7 +19,7 @@ const lat_long = {
 const location = (props) => {
   return (
         <div id="location_container">
-          <div id="location">
+          <div id="flex location">
             <img id="location_text" src={location_text} alt="location image" />
             <div id="location_images"> 
               {Array.from(Array(3), (e, i) => {
