@@ -38,10 +38,10 @@
 } 
 
 #location_text{
-  position:absolute;
-  transform: translate(-50%, -50%);
-  top: -39%;
-  left: 50%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -15rem;
 }
 
 

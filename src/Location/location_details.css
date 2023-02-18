@@ -1,5 +1,7 @@
 #location_details {
   display: flex;
+  position: relative;
+  bottom: 50px;
 }
 
 #style_image {
@@ -25,8 +27,13 @@
     transform: translate(-50%, -50%);
     z-index: -2;
     left: 50%;
-    top: 128%;
+    top: 158%;
     width: 670px;
+}
+
+#location_card div {
+  position: relative;
+  top: 100px;
 }
 
 #style {
