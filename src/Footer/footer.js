@@ -57,7 +57,7 @@ const footer = (props) => {
             </div>
             <div className="flex col footer-div">
               <ul>
-                <li onClick= {openWhattsapp}>
+                <li style={{  "textDecoration":"underline"}} onClick= {openWhattsapp}>
                   <img className="footer_icon" src={w_icon} />
                   +91 94111 91687
                 </li>
