@@ -16,11 +16,22 @@ const Wapp_link = "https://wa.me/919411191687"
 const copyToClipboard = () => {
   navigator.clipboard.writeText("rapid_action@hotmail.com");
   console.log("copied")
+  copyURL()
 } 
 
 const openWhattsapp = () => {
   window.open(Wapp_link, "_blank")
 }
+
+const copyURL = () => {
+  const copyDiv = document.querySelector(".copyAlert")
+  copyDiv.textContent = "Mail copied to clipboard!";
+  copyDiv.style.animationName = "disappear";
+  copyDiv.style.animationDuration = "2s"; 
+  setTimeout(function(){ 
+  copyDiv.style.animationName = "none"; 
+  }, 2000);
+};
 
 const footer = (props) => {
   return(
@@ -51,6 +62,7 @@ const footer = (props) => {
                   +91 94111 91687
                 </li>
                 <li onClick={copyToClipboard}>
+                  <p className="copyAlert">  </p>
                   <img className="footer_icon"  src={mail_icon} />
                   <p className="business_email">rapid_action@hotmail.com</p>
                   <img  src={footer_copy_icon} />
