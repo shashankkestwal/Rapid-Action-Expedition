@@ -2,7 +2,7 @@
   display: grid;
   font-family: 'Lato';
   grid-template-columns: repeat(4, 1fr);
-  padding: 50px 0 10px 0;
+  padding: 3rem 0 2.5rem 0;
 }
 #tours_continer p {
   padding-top: 10px;
@@ -13,6 +13,7 @@
   height:220px;
   max-width: 250px;
   border-radius: 3%;
+  object-fit: cover;
 }
 .sta {  
   color: #3E4F55;
@@ -45,30 +46,32 @@
 
 @media screen and (max-width: 720px) {
   #tours_continer {
-    padding-left: 30px;
-    display: block;
+    display: flex;
     height: 350px;
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    box-sizing: border-box;
+    padding: 3rem 2rem;
+    gap: 2rem;
   }
   #tours_continer::-webkit-scrollbar {
     display: none;
   }
   .tour_card {
     display: inline-block;
+    padding: 0;
   }
 
   .tour {
     margin: 0;
-    padding-left: 13px;
     padding-bottom: 2.5rem;
   }
   .tour img {
     width: 60%;
   }
   .tour_contact {
-    width: 110%;
+    width: 100%;
   }
 }

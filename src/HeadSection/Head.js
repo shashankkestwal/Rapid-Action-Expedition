@@ -1,5 +1,5 @@
 import './header.css'
-import rafting_image from "../assets/rafting.png"
+import rafting_image from "../assets/rafting.jpg"
 import RadidExpedition from "../assets/rapid_expedition.svg"
 
 const Head = (props) => {

@@ -1,15 +1,15 @@
 import location_text from "../assets/location_heading.svg"
 
-import img2 from "../assets/normalCamp.jpeg"
-import img3 from "../assets/luxaryCamp.jpeg"
-import img6 from "../assets/img3.jpeg"
+import img2 from "../assets/location/img2.jpg"
+import img3 from "../assets/location/img3.jpg"
+import img6 from "../assets/location/img6.jpg"
 
 import LocationDetails from "./location_details.js"
 import "./location.css"
 
 const images_count = 3;
 
-const images_url = [img3, img2, img6]
+const images_url = [img2, img3, img6]
 
 
 const lat_long = {

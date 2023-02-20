@@ -45,14 +45,20 @@
 }
 
 #more {
-  font-family: "Lato";
-  font-weight: 600;
-  color: #3E4043;
-  font-size: 2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    font-family: "Lato";
+    font-weight: bold;
+    color: #3E4043;
+    font-size: 1rem;
+    min-width: 6rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    background-color: white;
+    opacity: .8;
+    padding: 0.7rem 0.7rem;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    
 }
 
 
@@ -69,6 +75,25 @@
     display: block;
   }
   #more {
-    display: none;
+    visibility: hidden;
+    top: 80%;
+  }
+
+    #more:after {
+    visibility: visible;
+    content: "View More Images";
+    font-family: "Lato";
+    font-weight: bold;
+    color: #3E4043;
+    font-size: 1rem;
+    min-width: 10rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    background-color: white;
+    opacity: .8;
+    padding: 0.7rem 0.7rem;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
   }
 }

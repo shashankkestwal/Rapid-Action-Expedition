@@ -1,18 +1,25 @@
 import "./gallery.css"
-import img1 from "../assets/gallery_images/img1.png"
-import img2 from "../assets/gallery_images/img2.png"
-import img4 from "../assets/gallery_images/img4.png"
-import img5 from "../assets/gallery_images/img5.png"
-import img6 from "../assets/gallery_images/img6.png"
-import img8 from "../assets/gallery_images/img8.png"
-import img9 from "../assets/gallery_images/img9.png"
-import img10 from "../assets/gallery_images/img10.png"
-import img11 from "../assets/gallery_images/img11.png"
-import img12 from "../assets/gallery_images/img12.png"
-import img13 from "../assets/gallery_images/img13.png"
-import img14 from "../assets/gallery_images/img14.png"
-import img15 from "../assets/gallery_images/img15.png"
-import img16 from "../assets/gallery_images/img16.png"
+import img1 from "../assets/gallery_images/img1.jpg"
+import img2 from "../assets/gallery_images/img2.jpg"
+import img4 from "../assets/gallery_images/img4.jpg"
+import img5 from "../assets/gallery_images/img5.jpg"
+import img6 from "../assets/gallery_images/img6.jpg"
+import img8 from "../assets/gallery_images/img8.jpg"
+import img9 from "../assets/gallery_images/img9.jpg"
+import img10 from "../assets/gallery_images/img10.jpg"
+import img11 from "../assets/gallery_images/img11.jpg"
+import img12 from "../assets/gallery_images/img12.jpg"
+import img13 from "../assets/gallery_images/img13.jpg"
+import img14 from "../assets/gallery_images/img14.jpg"
+import img15 from "../assets/gallery_images/img15.jpg"
+import img16 from "../assets/gallery_images/img16.jpg"
+import img17 from "../assets/gallery_images/img17.jpg"
+import img18 from "../assets/gallery_images/img18.jpg"
+import img19 from "../assets/gallery_images/img19.jpg"
+import img20 from "../assets/gallery_images/img20.jpg"
+import img21 from "../assets/gallery_images/img21.jpg"
+import img22 from "../assets/gallery_images/img22.jpg"
+
 
 
 import React, { Component } from 'react';
@@ -34,7 +41,13 @@ const images = [
   img13,
   img14,
   img15,
-  img16
+  img16,
+  img17,
+  img18,
+  img19,
+  img20,
+  img21,
+  img22,
 ];
 
 export default class gallery extends Component {
@@ -63,7 +76,7 @@ export default class gallery extends Component {
           </div>
           <div className="image last" id="img4" onClick={() => this.setState({ isOpen: true })}>
             <img src={img5} alt="Camp image" />
-            <div id="more">View More+</div>
+            <div id="more">View More</div>
           </div>
 
         {isOpen && (

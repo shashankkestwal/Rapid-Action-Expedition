@@ -4,11 +4,11 @@ import axios from 'axios';
 import "./activities.css"
 import activities_text_image from "../assets/activities_heading.svg"
 import styling_background from "../assets/styling_background.jpg"
-import img1 from "../assets/img1.jpeg"
-import img2 from "../assets/img2.jpeg"
-import img3 from "../assets/img3.jpeg"
-import normalCamp from "../assets/normalCamp.jpeg"
-import luxaryCamp from "../assets/luxaryCamp.jpeg"
+import img1 from "../assets/activities_images/img1.jpg"
+import img2 from "../assets/activities_images/img2.jpg"
+import img3 from "../assets/activities_images/img3.jpg"
+import normalCamp from "../assets/activities_images/normalCamp.jpg"
+import luxuryCamp from "../assets/activities_images/luxuryCamp.jpg"
 import ActivityCard from "./activity_card.js"
 
 const activity_card_data = [{
@@ -16,8 +16,8 @@ const activity_card_data = [{
                               activity : "Standard Camp", 
                               price: "1200"
                             }, {
-                              image : luxaryCamp,
-                              activity : "Luxary Camp", 
+                              image : luxuryCamp,
+                              activity : "Luxury Camp", 
                               price: "1600"
                             },{
                               image : img3,
@@ -28,15 +28,11 @@ const activity_card_data = [{
                               activity : "Rafting 26Km", 
                               price: "1200"
                             },{
-                              image : img3,
-                              activity : "Rafting 32km", 
-                              price: "XXX"
-                            },{
                               image : normalCamp,
                               activity : "Standard camping and one trip Rafting", 
                               price: "1600"
                             },{
-                              image : luxaryCamp,
+                              image : luxuryCamp,
                               activity : "Luxary camping and one trip Rafting", 
                               price: "2200"
                             }]

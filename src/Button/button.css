@@ -33,4 +33,10 @@ button, input[type="submit"], input[type="reset"] {
   #button-container{
     width: 400px;
   }
+
+  #contact_button{
+    padding: 0 1rem;
+    margin: 0.5rem;
+    min-width: 12rem; 
+  }
 }

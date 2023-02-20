@@ -1,8 +1,8 @@
 import TopNavigation from './DesktopNavigationBar.js'
-import AboutBackground from "./assets/about_background.png"
-import mobileAbtUsHeader from "./assets/mobile_abtUs_header.png"
+import AboutBackground from "./assets/about_background.jpg"
+import mobileAbtUsHeader from "./assets/mobile_abtUs_header.jpg"
 import AboutHeading from "./assets/aboutHeading.svg"
-import Rishikesh_bg from "./assets/rishikesh_bg.png"
+import Rishikesh_bg from "./assets/rishikesh_bg.jpg"
 import "./About.css"
 
 const About = (props) => {

@@ -14,7 +14,7 @@ import footer_copy_icon from "../assets/footer_copy_icon.svg"
 const Wapp_link = "https://wa.me/919411191687"
 
 const copyToClipboard = () => {
-  navigator.clipboard.writeText("info@rapidactionexpedition.com");
+  navigator.clipboard.writeText("rapid_action@hotmail.com");
   console.log("copied")
 } 
 
@@ -52,7 +52,7 @@ const footer = (props) => {
                 </li>
                 <li onClick={copyToClipboard}>
                   <img className="footer_icon"  src={mail_icon} />
-                  <p className="business_email">info@rapidactionexpedition.com </p>
+                  <p className="business_email">rapid_action@hotmail.com</p>
                   <img  src={footer_copy_icon} />
                 </li>
                 <li></li>
