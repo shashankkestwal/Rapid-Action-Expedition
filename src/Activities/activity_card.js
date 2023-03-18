@@ -7,9 +7,11 @@ import "./activity_card.css"
 const activity_card = (props) => { 
   return(
           <div id="activity_card">
+          <div>
             <img style={{width:"300px", height:"200px", borderRadius:"10px"}} src = {props.image}></img>
             <p id="activity"> {props.activity }</p>
             <p id="price"> <span id="number">{props.price}</span>/Person </p>
+          </div>
           </div>
         )
 }

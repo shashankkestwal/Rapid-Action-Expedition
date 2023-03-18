@@ -22,6 +22,7 @@
 }
 
 #a_C {
+  
   background-color: white;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.06);
   border-radius: 1em;
@@ -45,12 +46,11 @@
 @media screen and (max-width: 720px){
   #activities_section {
     padding: 40px 0 0;
-    display: block;
     width: 100%;
   }
   #activities_card_continer {
-    display: block;
-    height: 300px;
+    justify-content: center;
+    display: inline-block;
     width: 88%;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -79,10 +79,12 @@
     padding: 0;
   }
 
+
   #activity_text {
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   #activity_text img {
     height: 4.6rem;
