@@ -11,7 +11,7 @@ import "./feature.css"
 const feature_details = [{
                           image : tent,
                           feature_text: "Tent",
-                          feature_data : "Riverside and Luxary Camps Availaible "
+                          feature_data : "Riverside and Luxury Tents Availaible "
                         },{
                           image : food,
                           feature_text: "Food",

@@ -28,14 +28,12 @@ import {gallery_images} from '../data';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 const images = [
-  img1,
+  img5,
   img2,
   img4,
-  img5,
   img6,
   img8,
   img9,
-  img10,
   img11,
   img12,
   img13,
@@ -66,7 +64,7 @@ export default class gallery extends Component {
     return (
       <div id="image-container">
           <div className="image" id="img1">
-            <img src={img1} alt="Mountian image" />
+            <img src={img6} alt="Mountian image" />
           </div>
           <div className="image" id="img2">
             <img src={img2} alt="Camp image" />
